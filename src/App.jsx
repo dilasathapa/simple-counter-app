@@ -30,7 +30,6 @@ class App extends Component{
       <>
         <div >
           <h1>Counter App</h1>
-
           <h3>Count : {this.state.count}</h3>&nbsp;&nbsp;&nbsp;
           <button onClick={this.Increment}>+</button> &nbsp;&nbsp;&nbsp;
           <button onClick={this.Decrement}>-</button>&nbsp;&nbsp;&nbsp;
