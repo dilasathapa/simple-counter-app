@@ -32,7 +32,7 @@ class App extends Component{
           <h1>Counter App</h1>
           <h3>Count : {this.state.count}</h3>&nbsp;&nbsp;&nbsp;
           <button onClick={this.Increment}>+</button> &nbsp;&nbsp;&nbsp;
-          <button onClick={this.Decrement}>-</button>&nbsp;&nbsp;&nbsp;
+          <button onClick={this.Decrement}>-</button>&nbsp;&nbsp;&nbsp;&nbsp;
           <button onClick={this.Resetvalue}>Reset</button>
         </div>
         <Multiple passedValue={this.state.count}/>
